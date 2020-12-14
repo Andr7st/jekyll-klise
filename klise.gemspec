@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email    = ["justharpi@gmail.com"]
 
   spec.summary  = "🏖 Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support."
-  spec.homepage = "https://github.com/piharpi/jekyll-klise"
+  spec.homepage = "https://github.com/andr7st/jekyll-klise" # Test change
   spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
@@ -20,6 +20,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'jekyll-sitemap', '~> 1.4'
   spec.add_runtime_dependency 'jekyll-compose', '~> 0.12.0'
   spec.add_runtime_dependency 'jekyll-postfiles', '~> 3.1'
+  spec.add_runtime_dependency 'tzinfo', '~> 2.0', '>= 2.0.3'
+  spec.add_runtime_dependency 'tzinfo-data', '~> 1.2020', '>= 1.2020.4'
+
 
   spec.add_development_dependency "bundler", "~> 2.1"
 end
